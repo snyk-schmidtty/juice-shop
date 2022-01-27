@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: juice-shop
-        image: clintonherget/snyk-juice-shop:20220107
+        image: snykschmidtty/juice-shop:latest
         imagePullPolicy: IfNotPresent
         ports:
         - containerPort: 3000
