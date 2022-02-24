@@ -1,0 +1,24 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = false
+	logallrefupdates = true
+	ignorecase = true
+	precomposeunicode = true
+[submodule]
+	active = .
+[remote "origin"]
+	url = https://github.com/snyk-schmidtty/juice-shop.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
+[branch "master"]
+	remote = origin
+	merge = refs/heads/master
+[remote "upstream"]
+	url = https://github.com/alexeisnyk/juice-shop.git
+	fetch = +refs/heads/*:refs/remotes/upstream/*
+[remote "gitlab"]
+	url = git@gitlab.com:snyk-schmidtty/juice-shop.git
+	fetch = +refs/heads/*:refs/remotes/gitlab/*
+[remote "azure"]
+	url = git@ssh.dev.azure.com:v3/snyk-schmidtty/juice-shop/juice-shop
+	fetch = +refs/heads/*:refs/remotes/azure/*
