@@ -16,11 +16,7 @@ spec:
     spec:
       containers:
       - name: juice-shop
-<<<<<<< HEAD
-        image: image: clintonherget/snyk-juice-shop
-=======
         image: clintonherget/snyk-juice-shop
->>>>>>> e1c4309c444e1d7793759ea582982ab1b79832a7
         imagePullPolicy: IfNotPresent
         ports:
         - containerPort: 3000
